@@ -79,6 +79,11 @@
     align-items: center;
     padding: 15px;
 }
+.menus{
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+}
 .main-section > .cards-container{
     display: flex;
     flex-direction: column;
