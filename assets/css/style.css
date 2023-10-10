@@ -30,9 +30,16 @@
 }
 .nav-section >.logo-container > .logo, .menu{
     width: 30px;
+    cursor: pointer;
 }
 .nav-section > ul{
     display: none;
+    cursor: pointer;
+}
+ul:hover{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    font-size: 20px;
 }
 .nav-section > .logo-container{
     flex-direction: column;
@@ -92,7 +99,7 @@
 .main-section > .cards-container > .card > button{
     width: 90px;
     height: 35px;
-    background-color: blue;
+    background-color: rgb(75, 131, 141);
     color: #ececec;
     border: none;
     border-radius: 5px;
@@ -105,11 +112,11 @@
 .main-section > .navigation > button{
     width: 30px;
     height: 30px;
-    color: blue;
+    color: rgb(56, 56, 99);
 }
 .foot-section{
     grid-area: footer;
-    background-color: blue;
+    background-color: rgb(45, 57, 59);
     color: #ececec;
     display: flex;
     flex-direction: column;
@@ -127,7 +134,7 @@
 
 @media (min-width: 576px){
     .nav-section{
-        background-color: rgb(62, 120, 196);
+        background-color: rgb(75, 131, 141);
 }
     .container{
         grid-template-areas:
