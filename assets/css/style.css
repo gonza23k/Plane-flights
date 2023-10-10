@@ -18,7 +18,7 @@
 .nav-section{
     padding: 10px;
     grid-area: nav;
-    background-color: blue;
+    background-color: rgb(48, 92, 59);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,7 +78,7 @@ ul:hover{
     background-color: #ececec;
     width: 220px;
     height: fit-content;
-    padding: 35px 0;
+    padding: 27px 0;
     gap: 15px;
     border-radius: 3px;
     
@@ -112,11 +112,11 @@ ul:hover{
 .main-section > .navigation > button{
     width: 30px;
     height: 30px;
-    color: rgb(56, 56, 99);
+    color: rgb(48, 92, 59);
 }
 .foot-section{
     grid-area: footer;
-    background-color: rgb(45, 57, 59);
+    background-color: rgb(48, 92, 59);
     color: #ececec;
     display: flex;
     flex-direction: column;
@@ -174,8 +174,11 @@ ul:hover{
     }
     .foot-section{
         height: 105px;
-        padding: 10px;
+        padding: 25px;
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
+        background-color: rgb(61, 95, 122);
     }
 }   
 @keyframes blurimage{
