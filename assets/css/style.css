@@ -39,11 +39,23 @@
     display: none;
     cursor: pointer;
 }
-ul:hover{
-    color: rgb(255, 255, 255);
-    transition: 1s;
+.inicio:hover{
+    color: brown;
     font-size: 20px;
 }
+.oferta:hover{
+    color: brown;
+    font-size: 20px;
+}
+.catalogo:hover{
+    color: brown;
+    font-size: 20px;
+}
+.contacto:hover{
+    color: brown;
+    font-size: 20px;
+}
+
 .nav-section > .logo-container{
     flex-direction: column;
     align-items: center;
